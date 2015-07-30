@@ -7,13 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B00CC071B6420FA002EA43D /* NSUserDefaultsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B00CC061B6420FA002EA43D /* NSUserDefaultsManager.swift */; };
+		1B5369581B57EBE6006AF03D /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5369571B57EBE6006AF03D /* CustomCell.swift */; };
+		1B53695A1B57F481006AF03D /* Recepe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B5369591B57F480006AF03D /* Recepe.swift */; };
+		1B53695C1B57F797006AF03D /* RecepeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B53695B1B57F797006AF03D /* RecepeManager.swift */; };
+		1B6205481B577ABE003F314B /* AddViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6205471B577ABE003F314B /* AddViewController.swift */; };
+		1B62054A1B577B1E003F314B /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B6205491B577B1E003F314B /* DetailViewController.swift */; };
 		1B9DEB471B56D0B0008A8062 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DEB461B56D0B0008A8062 /* AppDelegate.swift */; };
-		1B9DEB491B56D0B0008A8062 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DEB481B56D0B0008A8062 /* ViewController.swift */; };
 		1B9DEB4C1B56D0B0008A8062 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9DEB4A1B56D0B0008A8062 /* Main.storyboard */; };
 		1B9DEB4E1B56D0B0008A8062 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1B9DEB4D1B56D0B0008A8062 /* Assets.xcassets */; };
 		1B9DEB511B56D0B0008A8062 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1B9DEB4F1B56D0B0008A8062 /* LaunchScreen.storyboard */; };
 		1B9DEB5C1B56D0B1008A8062 /* IndianRecepieTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DEB5B1B56D0B1008A8062 /* IndianRecepieTests.swift */; };
 		1B9DEB671B56D0B1008A8062 /* IndianRecepieUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DEB661B56D0B1008A8062 /* IndianRecepieUITests.swift */; };
+		1B9DEB751B56D116008A8062 /* TableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B9DEB741B56D116008A8062 /* TableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,9 +40,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B00CC061B6420FA002EA43D /* NSUserDefaultsManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NSUserDefaultsManager.swift; sourceTree = "<group>"; };
+		1B5369571B57EBE6006AF03D /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = ../CustomCell.swift; sourceTree = "<group>"; };
+		1B5369591B57F480006AF03D /* Recepe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Recepe.swift; sourceTree = "<group>"; };
+		1B53695B1B57F797006AF03D /* RecepeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecepeManager.swift; sourceTree = "<group>"; };
+		1B6205471B577ABE003F314B /* AddViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddViewController.swift; sourceTree = "<group>"; };
+		1B6205491B577B1E003F314B /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		1B9DEB431B56D0B0008A8062 /* IndianRecepie.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndianRecepie.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9DEB461B56D0B0008A8062 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		1B9DEB481B56D0B0008A8062 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		1B9DEB4B1B56D0B0008A8062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1B9DEB4D1B56D0B0008A8062 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1B9DEB501B56D0B0008A8062 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +58,7 @@
 		1B9DEB621B56D0B1008A8062 /* IndianRecepieUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndianRecepieUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1B9DEB661B56D0B1008A8062 /* IndianRecepieUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndianRecepieUITests.swift; sourceTree = "<group>"; };
 		1B9DEB681B56D0B1008A8062 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1B9DEB741B56D116008A8062 /* TableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +109,14 @@
 		1B9DEB451B56D0B0008A8062 /* IndianRecepie */ = {
 			isa = PBXGroup;
 			children = (
+				1B00CC061B6420FA002EA43D /* NSUserDefaultsManager.swift */,
+				1B5369571B57EBE6006AF03D /* CustomCell.swift */,
 				1B9DEB461B56D0B0008A8062 /* AppDelegate.swift */,
-				1B9DEB481B56D0B0008A8062 /* ViewController.swift */,
+				1B9DEB741B56D116008A8062 /* TableViewController.swift */,
+				1B5369591B57F480006AF03D /* Recepe.swift */,
+				1B53695B1B57F797006AF03D /* RecepeManager.swift */,
+				1B6205471B577ABE003F314B /* AddViewController.swift */,
+				1B6205491B577B1E003F314B /* DetailViewController.swift */,
 				1B9DEB4A1B56D0B0008A8062 /* Main.storyboard */,
 				1B9DEB4D1B56D0B0008A8062 /* Assets.xcassets */,
 				1B9DEB4F1B56D0B0008A8062 /* LaunchScreen.storyboard */,
@@ -255,8 +273,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B9DEB491B56D0B0008A8062 /* ViewController.swift in Sources */,
 				1B9DEB471B56D0B0008A8062 /* AppDelegate.swift in Sources */,
+				1B00CC071B6420FA002EA43D /* NSUserDefaultsManager.swift in Sources */,
+				1B53695A1B57F481006AF03D /* Recepe.swift in Sources */,
+				1B9DEB751B56D116008A8062 /* TableViewController.swift in Sources */,
+				1B5369581B57EBE6006AF03D /* CustomCell.swift in Sources */,
+				1B6205481B577ABE003F314B /* AddViewController.swift in Sources */,
+				1B53695C1B57F797006AF03D /* RecepeManager.swift in Sources */,
+				1B62054A1B577B1E003F314B /* DetailViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -481,6 +505,7 @@
 				1B9DEB6D1B56D0B1008A8062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9DEB6E1B56D0B1008A8062 /* Build configuration list for PBXNativeTarget "IndianRecepieTests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +514,7 @@
 				1B9DEB701B56D0B1008A8062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		1B9DEB711B56D0B1008A8062 /* Build configuration list for PBXNativeTarget "IndianRecepieUITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +523,7 @@
 				1B9DEB731B56D0B1008A8062 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
